@@ -30,7 +30,7 @@ const Features = () => {
     ]
 
     return (
-        <section className="features">
+        <section className="features pb-[150px]">
             <div className="container">
                 <div className="main-box grid grid-cols-1 md:grid-cols-2 w-[865px] max-w-full mx-auto gap-24">
                     {items.map((item, idx) => <Feature key={idx} icon={item.icon} title={item.title} desc={item.desc}/>)}
