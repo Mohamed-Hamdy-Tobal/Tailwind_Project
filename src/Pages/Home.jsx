@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import Landing from "../Components/Landing"
 import Features from "../Components/Features"
+import StayProductive from "../Components/StayProductive"
 
 export const Home = () => {
 
@@ -8,6 +9,7 @@ export const Home = () => {
         <Fragment>
             <Landing/>
             <Features/>
+            <StayProductive/>
         </Fragment>
     )
 }
