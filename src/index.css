@@ -1,8 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; /* Base styles Like Materialize*/
+@tailwind components; /* Component styles Like Bootstrap*/
+@tailwind utilities;  /* Utility classes Like Bulma that reoverreading the styles of the components*/
 
-@layer {
+/* Use @apply to inline any existing utility classes into your own custom CSS., in (Component) of tailwind */
+
+@layer components{
     .container {
         @apply px-5 mx-auto
     }

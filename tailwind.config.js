@@ -30,3 +30,4 @@ export default {
   plugins: [],
 }
 
+// Here we apply an configuration customization to the selector build in tailwind like (colors, animation, )

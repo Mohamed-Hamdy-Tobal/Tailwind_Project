@@ -2,7 +2,7 @@
 
 const Testi = ({text, img, title, job}) => {
     return (
-        <div className="box bg-[#273957] p-[20px] rounded-lg shadow-[8px_8px_1px_8px_#1c202c]">
+        <div className="box bg-[#273957] p-[25px] rounded-lg shadow-[8px_8px_1px_8px_#1c202c]">
             <p className='mb-4 text-[14px] tracking-[0.8]'>{text}</p>
             <div className="profile ele-center gap-3 justify-start">
                 <img src={img} alt="img" className="w-[35px] h-[35px] rounded-full object-contain"/>

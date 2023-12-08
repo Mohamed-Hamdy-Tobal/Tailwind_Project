@@ -28,7 +28,7 @@ const Testimonials = () => {
     ]
 
     return (
-        <div className="testimonials pb-[150px]">
+        <div className="testimonials pb-[300px]">
             <div className="container relative">
                 <div className="main-box text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-[30px]">
                     {data.map((item, idx) => <Testi key={idx} text={item.text} img={item.img} title={item.title} job={item.job}/>)}
