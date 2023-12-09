@@ -33,7 +33,7 @@ const Testimonials = () => {
                 <div className="main-box text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-[30px]">
                     {data.map((item, idx) => <Testi key={idx} text={item.text} img={item.img} title={item.title} job={item.job}/>)}
                 </div>
-                <img src={quotes} alt="quotes" className='absolute top-[-35px] left-[0px] -z-10'/>
+                <img src={quotes} alt="quotes" className='absolute top-[-35px] left-[10px] md:left-0 -z-10'/>
             </div>
         </div>
     )
